@@ -10,7 +10,7 @@
         <div class="card-body">
             <h5 class="card-title"></h5>
             <p class="card-text">Book your stay now at the most magnificent resort in the world!</p>
-            <form action="{{ route('reservations') }}" method="POST">
+            <form action="{{ route('reservations.store') }}" method="POST">
                 @csrf
                 <div class="row">
                     <div class="col-sm-8">

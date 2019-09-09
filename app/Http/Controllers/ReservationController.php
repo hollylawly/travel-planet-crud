@@ -29,7 +29,7 @@ class ReservationController extends Controller
      */
     public function create($hotel_id)
     {
-        $hotelInfo = Hotel::with('rooms')->get()->find($id);
+        $hotelInfo = Hotel::with('rooms')->get()->find($hotel_id);
         return view('dashboard.reservationCreate', compact('hotelInfo'));
     }
 
@@ -72,9 +72,9 @@ class ReservationController extends Controller
     {
         $reservation = Reservation::with('room', 'room.hotel')->get()->find($reservation->id);
         $hotel_id = $reservation->room->hotel_id;
-        $roomOptions = Hotel::with('rooms')->get()->find($hotel_id);
+        $hotelInfo = Hotel::with('rooms')->get()->find($hotel_id);
 
-        return view('dashboard.reservationEdit', compact('reservation', 'roomOptions'));
+        return view('dashboard.reservationEdit', compact('reservation', 'hotelInfo'));
     }
 
     /**
