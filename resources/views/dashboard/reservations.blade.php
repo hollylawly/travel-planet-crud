@@ -31,6 +31,12 @@
             
         </tbody>
     </table>
+    @if(!empty(Session::get('success')))
+        <div class="alert alert-success"> {{ Session::get('success') }}</div>
+    @endif
+    @if(!empty(Session::get('error')))
+        <div class="alert alert-danger"> {{ Session::get('error') }}</div>
+    @endif
 </div>
 
 @endsection
