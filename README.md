@@ -2,7 +2,7 @@
 
 Let's build this a **reservation management system** using Laravel 6.0 and Auth0!
 
-You can follow along [with the tutorial](https://auth0.com/blog/build-and-secure-a-crud-application-with-laravel-6) (highly recommended) or skip straight to the goodies by following the instructions below.
+You can follow along [with the tutorial](https://auth0.com/blog/build-a-laravel-6-app-with-authentication/) (highly recommended) or skip straight to the goodies by following the instructions below.
 
 ![Laravel 6 crud travel app demo screenshot](https://cdn.auth0.com/blog/laravel-6-crud/home-logged-in.png)
 
@@ -45,7 +45,7 @@ php artisan key:generate
 
 This application requires users to login. To make sure everything is works correctly, you need to [sign up for a free Auth0 account](https://auth0.com/signup).
 
-There are three Auth0 values you'll need to fill in in your `.env` file. You can find the in the Auth0 dashboard. Check out the [tutorial](https://auth0.com/blog/build-and-secure-a-crud-application-with-laravel-6/#Adding-Authentication-to-Your-Laravel-6-0-Application) for more information on where to find them. 
+There are three Auth0 values you'll need to fill in in your `.env` file. You can find the in the Auth0 dashboard. Check out the [tutorial](https://auth0.com/blog/build-a-laravel-6-app-with-authentication/#Adding-Authentication-to-Your-Laravel-6-0-Application) for more information on where to find them. 
 
 ```
 AUTH0_DOMAIN=your-auth0-domain.auth0.com
