@@ -2,7 +2,7 @@
 
 Let's build this a **reservation management system** using Laravel 6.0 and Auth0!
 
-You can follow along [with the tutorial](2019-09-06-build-and-secure-a-crud-application-with-laravel-6) (highly recommended) or skip straight to the goodies by following the instructions below.
+You can follow along [with the tutorial](https://auth0.com/blog/build-and-secure-a-crud-application-with-laravel-6) (highly recommended) or skip straight to the goodies by following the instructions below.
 
 ![Laravel 6 crud travel app demo screenshot](https://cdn.auth0.com/blog/laravel-6-crud/home-logged-in.png)
 
