@@ -115,7 +115,7 @@ exit
 
 ## Book a Trip!
 
-Now just head to [`http://localhost:8000/`](http://localhost:8000/) to check out your new Laravel 6 reservation booking system! Go ahead and sign up, head to the [hotels page](http://localhost:8000/hotels), and make a new reservations.
+Now just head to [`http://localhost:8000/`](http://localhost:8000/) to check out your new Laravel 6 reservation booking system! Go ahead and sign up, head to the [hotels page](http://localhost:8000/hotels), and make some new reservations.
 
 ## Suspend the VM
 
