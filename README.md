@@ -45,7 +45,13 @@ php artisan key:generate
 
 This application requires users to login. To make sure everything is works correctly, you need to [sign up for a free Auth0 account](https://auth0.com/signup).
 
-There are three Auth0 values you'll need to fill in in your `.env` file. You can find the in the Auth0 dashboard. Check out the [tutorial](https://auth0.com/blog/build-a-laravel-6-app-with-authentication/#Adding-Authentication-to-Your-Laravel-6-0-Application) for more information on where to find them. 
+Click on "Applications" and then create a new application. Name it anything you'd like and select "Regular web app". 
+
+Scroll down and find "Allowed callback URLs". Fill this in with the URL you've been using for your application and then add `auth0/callback` to the end. E.g. `http://homestead.test/auth0/callback`.
+
+Fill in the "Logout URL" with just the URL. E.g. `http://homestead.test`.
+
+There are three Auth0 values on this page that you'll need to fill in in your `.env` file. Check out the [tutorial](https://auth0.com/blog/build-a-laravel-6-app-with-authentication/#Adding-Authentication-to-Your-Laravel-6-0-Application) for more information about this. 
 
 ```
 AUTH0_DOMAIN=your-auth0-domain.auth0.com
